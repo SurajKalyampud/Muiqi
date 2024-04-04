@@ -1,5 +1,6 @@
 .login-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -7,6 +8,13 @@
     background-size: cover;
     background-position: center;
     position: relative;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width as per your requirement */
+    height: auto;
+    opacity: 0.1; /* Adjust the opacity as needed */
+    margin-bottom: 50px; /* Adjust the margin as needed */
   }
   
   .login-form {
@@ -82,3 +90,4 @@
   .error-msg {
     background-color: #F44336;
   }
+  

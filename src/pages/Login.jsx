@@ -4,6 +4,7 @@ import './Login.css'
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 import { getAuth , signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
+import logo1  from '../assets/musiqi.jpeg'
 
 const Login = () => {
    
@@ -51,6 +52,7 @@ const Login = () => {
     <div>
         <Navbar />
         <div className='login-container'>
+          <img src={logo1} alt="Logo" />
             <form className='login-form'>
                 <p id='loginp'>Login</p>
 
