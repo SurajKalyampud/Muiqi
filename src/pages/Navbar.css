@@ -1,0 +1,61 @@
+/* nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: lightcyan;
+    align-items: center;
+}
+
+nav button{
+    margin: 5px;
+    background-color: lightpink;
+    border: none;
+    color: lightslategray;
+}
+
+.profile-icon{
+    width: 30px;
+    padding-right: 10px;
+} */
+
+.navbar {
+    background-color: #121a1ff6;
+    padding: 6px 20px;
+    height: 40px;
+    font-family: 'Arial', sans-serif; /* Change font to Arial or any other preferred font */
+  }
+  
+  .RightContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .profile-icon {
+    width: 36px;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  .logout-btn {
+    margin-left: 16px;
+  }
+  
